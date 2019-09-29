@@ -1,0 +1,27 @@
+{
+    "name": "r39u1/yii2-summernote",
+    "description": "Summernote editor widget for Yii2.",
+    "type": "yii2-extension",
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/summernote": "0.*"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andrew Regul",
+            "email": "andrew.regul@mail.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "r39u1\\summernote\\": "src/"
+        }
+    }
+}
