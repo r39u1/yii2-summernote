@@ -20,7 +20,7 @@ to the require section of your composer.json
 
 ## Usage
 
-	<?= $form->field($model, 'content')->widget(Summernote::className(), [
+	<?= $form->field($model, 'content')->widget(SummernoteWidget::className(), [
         'editorOptions' => [
             ...
         ]
@@ -28,7 +28,7 @@ to the require section of your composer.json
 
 or
 
-	<?= Summernote::widget([
+	<?= SummernoteWidget::widget([
         'name' => 'editor_id',
         'editorOptions' => [
             ...
@@ -40,7 +40,7 @@ See [editorOptions](https://summernote.org/getting-started/#height-and-focus)
 Example:
 
 ```
-  <?= Summernote::widget([
+  <?= SummernoteWidget::widget([
         'name' => 'editor_id',
         'editorOptions' => [
             'height' => 300,    // set editor height
