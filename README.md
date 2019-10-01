@@ -20,7 +20,7 @@ to the require section of your composer.json
 
 ## Usage
 
-	<?= $form->field($model, 'content')->widget(SummernoteWidget::className(), [
+	<?= $form->field($model, 'content')->widget(SummernoteWidget::class, [
         'editorOptions' => [
             ...
         ]
